@@ -6,7 +6,9 @@ import com.game.JogoRpg.controller.Acoes;
 public class JogoRpgApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JogoRpgApplication.class, args);
+		//SpringApplication.run(JogoRpgApplication.class, args);
+		Acoes acoes = new Acoes();
+		acoes.exibeMenu();
 	}
 
 }

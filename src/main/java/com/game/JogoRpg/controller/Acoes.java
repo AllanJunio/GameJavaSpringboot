@@ -2,8 +2,6 @@ package com.game.JogoRpg.controller;
 import com.game.JogoRpg.model.Personagem;
 import com.game.JogoRpg.view.*;
 
-import java.awt.*;
-
 public class Acoes {
 Messages msg = new Messages();
     public void exibeMenu() {
