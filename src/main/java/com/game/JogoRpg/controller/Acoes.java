@@ -1,11 +1,14 @@
 package com.game.JogoRpg.controller;
-import com.game.JogoRpg.model.Personagem;
+import com.game.JogoRpg.model.*;
 import com.game.JogoRpg.view.*;
+
+import javax.swing.*;
 
 public class Acoes {
 Messages msg = new Messages();
     public void exibeMenu() {
-        int opcao;
+
+      /*  int opcao;
         do {
             do {
 opcao= msg.solicitaOpcao();
@@ -20,9 +23,20 @@ switch (opcao) {
                 case 3:
                     break;
 }
-        }while( opcao != 3 );
+        }while( opcao != 3 );*/
 //exibir mensagem para encerrar o programa
 
+    }
+    public void combate(){
+        Npc npc = new Npc();
+        npc.setForca(50);
+        PersonagemPrincipal person = new PersonagemPrincipal();
+        person.setForca(30);
+ if (npc.getForca()>person.getForca()) {
+     JOptionPane.showMessageDialog(null, "Voccê perdeu, o npc é mais forte");
+ }else {
+ JOptionPane.showMessageDialog(null, "Parebén, você derrotou o npc");
+ }
     }
 }
 

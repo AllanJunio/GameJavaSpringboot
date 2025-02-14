@@ -9,6 +9,7 @@ public class JogoRpgApplication {
 		//SpringApplication.run(JogoRpgApplication.class, args);
 		Acoes acoes = new Acoes();
 		acoes.exibeMenu();
+		acoes.combate();
 	}
 
 }

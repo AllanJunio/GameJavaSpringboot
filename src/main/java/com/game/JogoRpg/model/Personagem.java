@@ -6,6 +6,25 @@ public class Personagem {
     private double forca;
     private double magia;
     private double vida;
+    private Inventario inventario; // Novo campo
+
+    public Personagem() {
+        this.inventario = new Inventario(); // Inicializa o inventário
+    }
+
+    public void equiparItem(Item item) {
+        if (item.getType().equals("Arma")) {
+            this.forca += item.getPower(); // Aumenta a força se for uma arma
+        } else if (item.getType().equals("Poção")) {
+            this.vida += item.getPower(); // Recupera vida
+        }
+        System.out.println(nome + " equipou " + item.getName());
+    }
+
+    // Métodos getters e setters aqui...
+    public Inventario getInventario() {
+        return inventario;
+    }
 
     public String getNome() {
         return nome;
