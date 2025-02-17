@@ -2,15 +2,20 @@ package com.game.JogoRpg.model;
 
 public class Item {
     private String name;
-    private String  type;
+    private String type;
     private int power;
 
 
-public Item(String name, String type, int power) {
-    this.name = name;
-    this.type = type;
-    this.power = power;
-}
+    public Item(String name, String type, int power) {
+        this.name = name;
+        this.type = type;
+        this.power = power;
+    }
+
+
+    //public Item() {
+   // }
+
 
     public String getName() {
         return name;

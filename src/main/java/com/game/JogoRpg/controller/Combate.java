@@ -4,9 +4,11 @@ import com.game.JogoRpg.view.*;
 
 import javax.swing.*;
 
-public class Acoes {
+public class Combate{
 Messages msg = new Messages();
     public void exibeMenu() {
+
+
 
       /*  int opcao;
         do {

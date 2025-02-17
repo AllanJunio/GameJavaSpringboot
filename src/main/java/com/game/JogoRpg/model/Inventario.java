@@ -30,4 +30,6 @@ public class Inventario {
     public List<Item> getItens() {
         return itens;
     }
+
+//Item couraca = new Item();
 }
