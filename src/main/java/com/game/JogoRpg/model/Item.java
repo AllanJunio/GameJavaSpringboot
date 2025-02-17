@@ -12,6 +12,10 @@ public class Item {
         this.power = power;
     }
 
+    public Item() {
+
+    }
+
 
     //public Item() {
    // }

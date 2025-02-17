@@ -11,7 +11,7 @@ public class Messages {
         JOptionPane.showConfirmDialog(null, menu, "Selecione a opção desejada", JOptionPane.OK_CANCEL_OPTION);
         return menu.getSelectedIndex();
     }
-public static int estiloCombate(){
-        String [] opcoesCombate = { "Guerreiro", "Mago", "Arqueiro"};
-}
+
+
+
 }

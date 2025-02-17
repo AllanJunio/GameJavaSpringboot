@@ -8,8 +8,6 @@ public class Combate{
 Messages msg = new Messages();
     public void exibeMenu() {
 
-
-
       /*  int opcao;
         do {
             do {

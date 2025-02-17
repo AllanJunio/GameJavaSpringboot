@@ -63,4 +63,5 @@ public class Personagem {
     public void setVida(double vida) {
         this.vida = vida;
     }
+
 }
