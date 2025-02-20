@@ -3,10 +3,13 @@ package com.game.JogoRpg.model;
 public class Personagem {
     private String nome;
     private int level;
+    private int experience;
     private double forca;
     private double magia;
     private double vida;
-    private Inventario inventario; // Novo campo
+    private String raca [];
+    private Inventario inventario;
+
 
     public Personagem() {
         this.inventario = new Inventario(); // Inicializa o inventário
@@ -24,6 +27,14 @@ public class Personagem {
     // Métodos getters e setters aqui...
     public Inventario getInventario() {
         return inventario;
+    }
+
+    public int getExperience() {
+        return experience;
+    }
+
+    public void setExperience(int experience) {
+        this.experience = experience;
     }
 
     public String getNome() {
