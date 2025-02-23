@@ -15,8 +15,18 @@ public class CreatePersonagem {
         }*/
     }
 
-    public int experiencia(){
+    int atacar = 0;
+    double experienciaPers;
 
-        return 1;
+    public double experiencia() {
+        for (int i = 0; i < atacar; i++) {
+            if (atacar != 0) {
+
+                experienciaPers =+ 0.85;
+
+            }
+
+        }
+        return experienciaPers;
     }
 }
